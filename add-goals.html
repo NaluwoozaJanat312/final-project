@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Goals - GoalSyncHub</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-light">
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 col-sm-3">
+        <div class="card shadow-sm">
+          <div class="card-body"> 
+  <h1 class="card-title text-center mb-4">Add a New Goal</h1>
+  <p class="text-center text-muted mb-4">Fill in the details below to create and share your goal with others on GoalSyncHub.</p>
+  <form action="#" method="post">
+    <div class="mb-3">
+    <label for="goalTitle" class="form-label">GoalTitle:</label><br>
+    <input type="text" id="goalTitle" name="goalTitle" placeholder="Enter your goal title" required><br>
+    </div>
+    <div class="mb-3">
+    <label for="goalDescription">GoalDescription:</label><br>
+    <textarea name="goalDescription" id="goalDescription" rows="5" cols="40" placeholder="Describe your goal in detail" required></textarea><br><br>
+    </div>
+    <div class="mb-3">
+    <label for="category">GoalCategory:</label><br>
+    <select class="form-select" name="category" id="category" required>
+        <option value="">--Select a Category--</option>
+        <option value="Accounting">Accounting</option>
+        <option value="Nursing">Nursing</option>
+        <option value="Business">Business</option>
+        <option value="Technology">Technology</option>
+        <option value="Environment">Environment</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+    </div>
+    <div class="mb-3">
+    <label for="deadline">Deadline:</label><br>
+    <input type="date" id="deadline" name="deadline" required><br><br>
+    </div>
+    <div class="mb-3">
+    <label for="image">Upload Image (Optional):</label><br>
+    <input type="file" id="image" name="image" accept="image/*"><br><br>
+    </div>
+  <div class="d-grid mb-3">
+    <button type="submit" class="btn btn-success w-100">Add Goal</button>
+    </div>
+  </form>
+  <br>
+  <div class="text-center mb-3">
+  <a href="index.html" class="me-3">Back to Home</a>
+  <a href="find-partners.html">Find Partners</a>
+  <a href="dashboard.html">Connect</a>
+  </div>
+  </div>
+       </div>
+  <footer class="text-center mt-4">
+    <p class="text-muted">&copy; 2025 GoalSyncHub | Connect. Collaborate. Achieve.</p>
+  </footer> 
+         </div>
+         </div>
+         </div> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
